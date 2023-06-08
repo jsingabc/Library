@@ -1,0 +1,31 @@
+table {
+    display: grid;
+    grid-column: 1 / 4;
+
+}
+
+th {
+    width: 100px;
+    height: 30px;
+    text-align: left;
+    border: 1px solid black;
+
+}
+
+td {
+    width: 70px;
+    text-align: left;
+    border: 1px solid black;
+    
+}
+
+tbody#myData {
+    width: 385px;
+    display: grid;
+    
+}
+
+tbody#myData > tbody > tr > td {
+    width: 200px;
+}
+
